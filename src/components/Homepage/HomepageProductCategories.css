@@ -1,0 +1,90 @@
+.categories-parent-div,
+.categories-div {
+    display: flex;
+}
+
+.categories-parent-div {
+    flex-direction: row;
+}
+
+.categories-div {
+    flex-direction: column;
+}
+
+.categories-parent-div {
+    margin-top: 13px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categories-div {
+    z-index: +1;
+    background-color: white;
+    align-items: center;
+    margin: 22px 2px 2px 3px;
+    padding: 22px 2px 2px 2px;
+    height: 17rem;
+    width: 16rem;
+    gap: 20px;
+    box-shadow: .2px .2px 18px .2px whitesmoke;
+    /* background: url("./images/mac-laptop-png-13.png"); */
+    /* background-size: cover; */
+}
+
+#change-position-categories-div {
+    position: fixed;
+    left: 40%;
+    top: 30%;
+}
+
+.categories-div:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.category-button {
+    text-decoration: none;
+    color: gray;
+    margin-top: -10px;
+    font-size: .9rem;
+    background: whitesmoke;
+    border: none;
+    padding: 5px 12px 5px 12px;
+    letter-spacing: 1.5px;
+}
+
+
+.category-button:hover {
+    transition: .2s;
+    background: white;
+
+}
+
+
+.categories-image {
+    width: 13rem;
+    height: auto;
+}
+
+.categories-div h3 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-left: 14px;
+    margin-top: -6px;
+}
+
+.categories-parent-heading {
+    text-align: center;
+}
+
+.close-pop-up-icon {
+    cursor: pointer;
+    background: rgb(215, 0, 0);
+    color: white;
+    border-radius: 200px;
+    position: fixed;
+    left: 81%;
+    top: 2%;
+    margin-left: 20px;
+    font-size: .3rem;
+}

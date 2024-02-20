@@ -1,0 +1,31 @@
+@media screen and (max-width:768px) {
+
+    .indiviual-product-item-image-content-parent-div {
+        display: flex;
+    }
+
+    .indiviual-product-item-image-content-parent-div {
+        flex-direction: column;
+    }
+
+    .indiviual-product-item-image {
+        margin-top: 10px;
+        width: 12rem;
+        height: auto;
+    }
+
+
+    .item-already-added-message,
+    .item-added-message {
+        font-size: .84rem;
+        white-space: nowrap;
+    }
+
+
+    .indiviual-product-item-content-div p {
+        font-size: .8rem;
+        line-height: 27px;
+        width: 100%;
+    }
+
+}

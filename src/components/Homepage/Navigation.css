@@ -1,0 +1,41 @@
+nav,
+.nav-bar-icon-heading-row {
+    display: flex;
+}
+
+nav {
+    flex-direction: row;
+}
+
+span {
+    color: rgb(1, 1, 124);
+    /* font-family: "Roboto"; */
+}
+
+nav {
+    background: white;
+    z-index: +1;
+    padding: 2px 32px 22px 2px;
+    position: fixed;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 98%;
+    padding-bottom: 10px;
+}
+
+.nav-bar-icon-image {
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 3.3rem;
+    height: auto;
+}
+
+h3 {
+    margin-right: 20px;
+}
+
+.nav-bar-icon-heading-row {
+    cursor: pointer;
+    gap: 10px;
+}

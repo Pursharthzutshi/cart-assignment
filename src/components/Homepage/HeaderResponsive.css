@@ -1,0 +1,29 @@
+@media screen and (max-width:768px) {
+  .header h2 {
+    font-size: 1.3rem;
+    margin-top: 20px;
+  }
+
+  .header p {
+    line-height: 22px;
+    margin-top: -4px;
+    margin-left: 14px;
+    font-size: .88rem;
+  }
+
+  .homepage-search-bar {
+    width: 84%;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width:468px) {
+  .header h2 {
+    font-size: 1.1rem;
+  }
+
+  .header p {
+    font-size: .8rem;
+  }
+
+}

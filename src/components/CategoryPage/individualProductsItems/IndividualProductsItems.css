@@ -1,0 +1,115 @@
+.individual-product-items-container,
+.indiviual-product-item-image-content-parent-div,
+.indiviual-product-item-button-container,
+.share-icon-div {
+    display: flex;
+}
+
+.indiviual-product-item-image-content-parent-div {
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    width: 60%;
+    /* background-color: yellow; */
+}
+
+
+.individual-product-items-container {
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    box-shadow: .2px .2px 2px .2px whitesmoke;
+    /* background-color: red; */
+}
+
+.item-already-added-message,
+.item-added-message {
+    animation: .5s ease ItemAlreadyAddedMessage;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    z-index: +1;
+}
+
+.item-already-added-message {
+    color: red;
+}
+
+.item-added-message {
+    color: orange;
+}
+
+@keyframes ItemAlreadyAddedMessage {
+    0% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* .indiviual-product-item-content-div{
+} */
+
+.share-icon-div {
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.indiviual-product-item-image-content-parent-div {
+    margin-top: 110px;
+}
+
+.indiviual-product-item-image {
+    margin-top: 10px;
+    width: 12rem;
+    height: auto;
+}
+
+.indiviual-product-item-image-content-parent-div h3 {
+    text-align: start;
+}
+
+.indiviual-product-item-image-content-parent-div p {
+    font-size: .9rem;
+    line-height: 26px;
+    padding-right: 50px;
+    width: 90%;
+}
+
+.indiviual-product-item-button-container {
+    gap: 10px;
+}
+
+.indiviual-product-item-button-container p {
+    font-size: 1.2rem;
+}
+
+.add-item-to-cart-button {
+    border: none;
+    height: 4vh;
+    margin: 22px 2px 2px -20px;
+
+}
+
+.indiviual-product-item-button-container button {
+    font-size: .8rem;
+    border: none;
+    height: 4vh;
+    margin: 22px 2px 2px -0px;
+
+}
+
+.add-item-to-cart-button {
+    font-family: "Montserrat";
+    padding: 5px 12px 4px 12px;
+}
+
+.add-item-to-cart-button:hover {
+    transition: .2s;
+    cursor: pointer;
+    background: lightgray;
+}
