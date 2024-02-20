@@ -22,7 +22,7 @@ function HomepageProductCategories({ headerSearchBar, setCategoryValue }) {
         <div className="categories-section">
 
             <div>
-                <h3 className="categories-parent-heading">View Product Categories</h3>
+                <h3 className="categories-parent-heading">View Products Categories</h3>
             </div>
             <div className="categories-parent-div">
 

@@ -51,9 +51,9 @@ function OrdersPage({ clearAllCartItems, cartItems, totalPrice, incOrDecCartItem
 
                                         <div className="cart-items-button-container">
 
-                                            <button onClick={() => { incOrDecCartItemQuantity(val, +1) }}>+</button>
+                                        <button onClick={() => { incOrDecCartItemQuantity(val, -1) }}>-</button>
                                             <p>{val.currentQuantity}</p>
-                                            <button onClick={() => { incOrDecCartItemQuantity(val, -1) }}>-</button>
+                                            <button onClick={() => { incOrDecCartItemQuantity(val, +1) }}>+</button>
                                             <DeleteOutlineIcon className="delete-cart-item-icon" onClick={() => { removeItemFromCart(val) }} />
 
                                         </div>

@@ -10,6 +10,12 @@ function CategoryPage({ categoryValue, setIndividualCategoryValue }) {
     const [priceRange, setPriceRange] = useState(0);
     const [searchBar, setSearchBar] = useState("");
 
+    // const [noProductsFoundMessage, setProductsFoundMessage] = useState(false);
+
+
+    // useEffect(()=>{
+     
+    // })
 
     useEffect(() => {
         window.localStorage.setItem("categoryValue", JSON.stringify(categoryValue));
@@ -57,7 +63,13 @@ function CategoryPage({ categoryValue, setIndividualCategoryValue }) {
                         <label>₹60000 & above</label>
                     </div>
 
+
                 </form>
+                {/* {
+                        noProductsFoundMessage && <div>
+                            <p>Home</p>
+                        </div>
+                    } */}
 
                 <div className="parent-products-div">
                     {
@@ -72,6 +84,10 @@ function CategoryPage({ categoryValue, setIndividualCategoryValue }) {
                         }).filter((val) => {
                             return val.brand.toLowerCase().includes(searchBar.toLowerCase())
                         }).map((val) => {
+                            // if(val.length == 0){
+                            //     console.log(val)
+                            //     setProductsFoundMessage(true);
+                            // }
                             return (
                                 <div className="products-div">
                                     <img className="image" src={val.imageUrl} />
